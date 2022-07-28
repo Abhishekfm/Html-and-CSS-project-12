@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 70px;
+}
+li{
+    list-style-type: none;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 40px;
+    color: #ffffff;
+}
+.logo img{
+    width: 120px;
+}
+.btn{
+    padding: 10px 32px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    background:none;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+.list-item{
+    margin-left: 50px;
+}
+.hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    /* justify-content: space-between; */
+    margin: 20px 60px;
+    padding-bottom: 60px;
+    margin-left: 130px;
+    /* width: max-content; */
+    width: 100vw;
+}
+.hero img{
+    width: 80%;
+}
+.hero div:nth-child(2) h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+.hero div:nth-child(2) p{
+    /* font-size: 50px; */
+    font-weight: 400;
+}
+.hero input{
+    width: 49%;
+    padding: 12px 20px;
+    margin-top: 20px;
+    padding-left: 30px;
+}
+.hero button{
+    transform: translateX(-122px);
+}
+.btn-group{
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 10px 32px;
+    font-weight: 600;
+    background-color: #8BB7A2;
+    border: 0;
+    color: #ffffff;
+}
+.hero i{
+    position: absolute;
+    top: 428px;
+    right: 600px;
+    color: #000000;
+    /* background-color: #000000; */
+}
+.section-header{
+    background-color: #636C79;
+    color: #ffffff;
+}
+.hero-heading, .hero-para{
+    padding-bottom: 20px;
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section2-data{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin: 0px 40px;
+    margin-bottom: 50px;
+}
+.section2-img img{
+    width: 80%;
+    padding-left: 120px;
+}
+.section2-heading{
+    text-align: center;
+    margin:50px 0px;
+    font-size: xx-large;
+}
+.section2-data h1{
+    margin-right: 120px;
+}
+.section-all{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    margin: 50px 30px;
+}
+.section-all img{
+    width: 80%;
+}
+.section-text{
+    margin: 0px 90px;
+}
+.section-text h2{
+    margin-top: 80px;
+    font-size: 40px;
+    margin-bottom: 10px;
+    /* word-spacing: 2px; */
+    
+}
+.section-div{
+    margin-left: 40px;
+}
+.section-text p{
+    font-weight: 400;
+    word-spacing: 4px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.section-text-left{
+    margin-left: 33px;
+}
+.section-div2{
+    margin-left: 0px;
+}
+.section-left{
+    margin: 100px 120px;
+}
+.photo-head{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 120px;
+    margin-right: 170px;
+}
+.photo-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 50px 120px;
+}
+.photo-grid img{
+    width: 88%;
+}
+.photo-grid h3{
+    padding: 20px 0px;
+}
+.photo-grid{
+    line-height: 25px;
+}
+.last-btn{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.top{
+    background-color: #000000;
+    color: #ffffff;
+}
+.top-footy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 120px;
+    padding: 40px 0px;
+    border-bottom: 2px solid #ffffff;
+}
+.footy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 120px;
+    padding: 40px 0px;
+}
+.footy h4, .footy li{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+.top-footy img{
+    background: none;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.icons i{
+    margin-right: 20px;
+    width: 40px;
+}
+.bot-logo img{
+    width: 90px;
+}
