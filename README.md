@@ -15,10 +15,10 @@ In this project I lerned about grid and more depth of it and button inside input
 ### Duration Of Completing this project
 > Honestly it took me more than **6 hours** .
 
-[Visit This Project Live](https://abhi-project-1.netlify.app/)
+[Visit This Project Live](https://abhi-project-12.netlify.app/)
 
 
 #
 
-To see my work visit my [Portfolio]("my-portfolio-website")
+To see my work visit my [Portfolio](https://portfolio-of-abhishek.netlify.app)
 
