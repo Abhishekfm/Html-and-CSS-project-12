@@ -47,6 +47,7 @@ li{
     margin-left: 130px;
     /* width: max-content; */
     width: 100vw;
+    position: relative;
 }
 .hero img{
     width: 80%;
@@ -76,10 +77,13 @@ li{
     border: 0;
     color: #ffffff;
 }
+.input-div{
+    position: relative;
+}
 .hero i{
     position: absolute;
-    top: 428px;
-    right: 600px;
+    bottom: 14px;
+    left: 5px;
     color: #000000;
     /* background-color: #000000; */
 }
@@ -216,4 +220,124 @@ li{
 }
 .bot-logo img{
     width: 90px;
+}
+
+@media screen and (max-width:1072px) {
+    .hero{
+        margin: 20px 20px;
+        width: 100%;
+    }
+    nav{
+        width: 70%;
+        margin-top: 10px;
+    }
+    .list-item{
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width:890px) {
+    header{
+        padding: 20px;
+    }
+    .hero{
+        grid-template-columns: 1fr;
+    }
+    .section-all{
+        margin: 0px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .section-all img{
+        width: 80%;
+        margin-left: 2%;
+    }
+    .section-text{
+        margin-left: 7%;
+        padding-top: 0px;
+
+    }
+    h2{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .photo-head{
+        margin: 40px;
+        flex-direction: column;
+    }
+    .photo-grid{
+        margin: 40px;
+    }
+    .footy{
+        margin: 20px;
+        flex-wrap: wrap;
+    }
+    .top-footy{
+        margin: 10px;
+    }
+    .footy li{
+        font-size: 12px;
+
+    }
+    .section2-img img{
+        padding-left: 20px;
+        margin: 0px;
+    }
+    .section2-data{
+        justify-content: center;
+        width: 100%;
+        margin: 0px;
+        flex-wrap: wrap;
+    }
+    .section2-data h1{
+        margin-right: 0px;
+    }
+    .section2-data div{
+        margin: 10px;
+    }
+    .section-text h2{
+        margin-top: 0px;
+        font-size: 20px;
+    }
+    .logo img{
+        width: 80px;
+        padding-top: 10px;
+    }
+    header{
+        padding: 20px;
+        /* justify-content: center; */
+    }
+    .list{
+        margin-left: 10px;
+    }
+    .list li:nth-child(3), .list li:nth-child(4){
+        display: none;
+    }
+    .list-item{
+        font-size: 12px;
+        margin-left: 3px;
+    }
+    .btn{
+        padding: 2px 2px;
+        font-size: 12px;
+        margin-left: 4px;
+    }
+    .hero div:nth-child(2) h1{
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .hero input{
+        width: 50%;
+        padding: 12px 20px;
+        margin-top: 20px;
+        padding-left: 30px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .hero{
+        margin-right: 20px;
+    }
 }

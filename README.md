@@ -8,7 +8,7 @@
 
 ![Project 12 Image](twelve.png)
 
-In this project I lerned about grid and more depth of it and button inside input by translateX property of css.
+In this project, I learned about the grid and more depth of it and the button inside input by translateX property of CSS.
 
 #
 
